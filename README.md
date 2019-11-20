@@ -128,12 +128,23 @@ Your finished work doesn't need to look like the screenshot.
 Each component should be passing down information to that nested component for it to render. You should never refer to the top-level json variable in your nested components.
 
 ### Running the code:
-With `babel-standalone` library we can't include files direct from our filesystem. `http-server` is a simple node static file server. You need to access all your files through the network or else the code won't run correctly.
 
-Install the server `npm install`
-Start the server in the root repo directory with: `http-server`.
-Go to your main file in the browser: `http://localhost:8080/index.html`
-You should see the message on the screen and there should be no js errors.
+```bash
+npm install
+```
+
+Import the `tweets.js` file.
+
+```bash
+npm run build
+```
+
+```bash
+node index.js
+```
+
+### Further
+Add css to your code. You can add it in the public folder, or put it in the `head` of the HTML.
 
 ### Further
 Check out the other levels of interaction there are on a twitter timeline in the website. [https://twitter.com/kanyewest](https://twitter.com/kanyewest) Build a component for each of these. (i.e., mousing over the user profile photo brings up the user profile)
