@@ -1,0 +1,6 @@
+{
+  "retainLines": true,
+  "plugins": [
+    "@babel/plugin-transform-react-jsx"
+  ]
+}
