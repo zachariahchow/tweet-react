@@ -127,6 +127,17 @@ Your finished work doesn't need to look like the screenshot.
 
 Each component should be passing down information to that nested component for it to render. You should never refer to the top-level json variable in your nested components.
 
+A suggested structure might look something like this:
+(note this is not react code- it just illustrates which components are inside other components)
+```
+<Tweet>
+  <User/>
+  <Entities>
+    <UrlEntity/>
+  </Entities>
+</Tweet>
+```
+
 ### Running the code:
 
 ```bash
