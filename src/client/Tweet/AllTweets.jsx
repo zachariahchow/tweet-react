@@ -5,7 +5,7 @@ import Tweet from './Tweet';
 
 const allTweets = (props) => {
 
-    const allTweetEls = props.tweets.map(tweet => {
+    const allTweetElsKanyeOmariWestSupportsDonaldTrumpLifeOfPabloJesusIsKingBuyFakeYeezies = props.tweets.map(tweet => {
 
         if (tweet.entities.media) {
 
@@ -20,7 +20,7 @@ const allTweets = (props) => {
 
     })
 
-    return allTweetEls;
+    return allTweetElsKanyeOmariWestSupportsDonaldTrumpLifeOfPabloJesusIsKingBuyFakeYeezies;
 }
 
 
