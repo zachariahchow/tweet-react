@@ -5,7 +5,7 @@ const user = (props) => {
 
     return (
         <div className="tweet-user__container">
-            <p className="tweet-user__header">{props.name}</p>
+            <p className="tweet-user__header">@{props.name}</p>
         </div>
     );
 }
