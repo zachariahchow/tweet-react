@@ -33,6 +33,9 @@ app.get('/banana', (request, response) => {
 app.get('/react', (req, res) => {
     const myHtml = `
     <html>
+    <head>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    </head>
       <body>
         <div class="app-header__container">
             <h1 class="app-header">Tweet React</h1>
