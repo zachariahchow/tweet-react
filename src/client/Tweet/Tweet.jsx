@@ -13,5 +13,4 @@ const tweet = (props) => {
     );
 }
 
-
 export default tweet;

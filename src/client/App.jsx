@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Tweet from './Tweet/Tweet';
+import User from './User/User';
+import UrlEntity from './UrlEntity/UrlEntity';
 
 import { tweets } from 'tweets';
 
@@ -12,7 +14,12 @@ class App extends React.Component {
 
         const allTweets = tweets.map(tweet => {
             return (
-                <Tweet text={tweet.text}/>
+                <div className="tweets__container">
+                    <ul className="tweets__list">
+                        <User name={tweet.user.screen_name}/>
+                        <Tweet text={tweet.text}/>
+                    </ul>
+                </div>
             )
         })
 
