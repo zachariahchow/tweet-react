@@ -1,20 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-import tweets from 'tweets'
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        tweets
-      </div>
-    );
-  }
-}
+import tweets from 'tweets';
 
 const element = document.getElementById('app');
 
-ReactDOM.render(<App />, element );//
-
-console.log("tweet react");
+ReactDOM.render(<App />, element); //
