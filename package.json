@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/zachariahchow/tweet-react/issues"
   },
-  "homepage": "https://github.com/zachariahchow/tweet-react#readme"
+  "homepage": "https://github.com/zachariahchow/tweet-react#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
