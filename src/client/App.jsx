@@ -24,6 +24,6 @@ class App extends React.Component {
     }
 }
 
-console.log(tweets[0].text);
+console.log(tweets[1].entities.media[0]);
 
 export default App
