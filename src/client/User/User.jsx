@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import tweets from 'tweets';
-
-
 const user = (props) => {
 
     return (
